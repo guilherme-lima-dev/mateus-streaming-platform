@@ -1,30 +1,41 @@
 {
-  "name": "streaming-platform",
-  "version": "0.1.0",
-  "private": true,
+  "name": "mateus-streaming-platform",
+  "version": "1.0.0",
+  "description": "Frontend profissional em Next.js para plataforma de streaming de vídeos, desenvolvido com TypeScript, Tailwind CSS e React Query.",
+  "main": "index.js",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guilherme-lima-dev/mateus-streaming-platform.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/guilherme-lima-dev/mateus-streaming-platform/issues"
+  },
+  "homepage": "https://github.com/guilherme-lima-dev/mateus-streaming-platform#readme",
   "dependencies": {
-    "@tanstack/react-query": "^5.17.19",
-    "axios": "^1.6.7",
-    "next": "14.2.5",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "zod": "^3.23.8"
+    "@tanstack/react-query": "^5.90.20",
+    "axios": "^1.13.4",
+    "next": "^16.1.6",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "zod": "^4.3.6"
   },
   "devDependencies": {
-    "@types/node": "^20.14.10",
-    "@types/react": "^18.3.3",
-    "@types/react-dom": "^18.3.0",
-    "autoprefixer": "^10.4.19",
-    "eslint": "^8.57.0",
-    "eslint-config-next": "14.2.5",
-    "postcss": "^8.4.39",
-    "tailwindcss": "^3.4.4",
-    "typescript": "^5.5.3"
+    "@tailwindcss/postcss": "^4.1.18",
+    "@types/react": "19.2.10",
+    "autoprefixer": "^10.4.23",
+    "eslint": "^9.39.2",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.18",
+    "typescript": "5.9.3"
   }
 }
