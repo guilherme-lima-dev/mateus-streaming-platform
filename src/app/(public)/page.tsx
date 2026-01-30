@@ -19,7 +19,7 @@ export default function HomePage() {
       <header className="bg-gray-900 border-b border-gray-800 py-6">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-3xl font-bold text-white mb-6">
-            Plataforma de Streaming
+            Mateus Tube
           </h1>
           <SearchBar onSearch={setSearch} />
         </div>
